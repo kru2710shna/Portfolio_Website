@@ -4,7 +4,7 @@ import skyScene from "../assets/3d/sky.glb"
 
 
 const sky = () => {
-    const sky = useGLTF('')
+    const sky = useGLTF(skyScene)
   return (
 
     <mesh>
