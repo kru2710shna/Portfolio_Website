@@ -3,7 +3,7 @@ import React from 'react'
 import skyScene from "../assets/3d/sky.glb"
 
 
-const sky = () => {
+const Sky = () => {
     const sky = useGLTF(skyScene)
   return (
 
@@ -13,4 +13,4 @@ const sky = () => {
   )
 }
 
-export default sky
+export default Sky

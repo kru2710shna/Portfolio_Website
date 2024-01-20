@@ -4,7 +4,7 @@ import Loader from '../components/Loader';
 import Island from '../models/island';
 import Bird from '../models/Bird';
 import Plane from '../models/Plane';
-import Sky from '../models/sky';
+import Sky from '../models/Sky';
 
 const Home = () => {
 
@@ -46,9 +46,8 @@ const Home = () => {
             scale  = {islandScale}
             rotation = {islandRotation}
             />
-
             <Plane />
-
+            
           </Suspense>
       </Canvas>
 
