@@ -1,10 +1,12 @@
 import React from 'react'
 import birdScene from "../assets/3d/bird.glb";
 import { useGLTF } from '@react-three/drei';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 
 const Bird = () => {
-
-    const {scene, animations} = useGLTF(birdScene);
+    const {scene , animations} = useGLTF(birdScene);
+    
     
   return (
     <mesh position ={[-5,2,1]} scale = {[0.003, 0.003, 0.003]}>
