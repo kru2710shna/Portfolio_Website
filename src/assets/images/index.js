@@ -1,10 +1,9 @@
-import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
-import logo from './logo.svg'
-
+import csus from './csus.png'
+import sfsu from './sfsu.png'
+import flow from './flow.png'
+import dl from './dl.png'
+import fd from './fd.png'
+import ig from './ig .png'
 export {
     hero,
     meta,

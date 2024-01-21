@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { skills } from '../constants/index,js';
 
 const About = () => {
   return (
@@ -20,6 +21,17 @@ const About = () => {
           Tech-Stack
         </h3>
         <div className='mt-16 flex flex-wrap gap-12'>
+          {skills.map((skill) =>(
+              <div>
+                <div>
+                  <img 
+                  src={skill.imageUrl}
+                  alt = {skill.name}
+                  className='w-1/2 h-1/2 object-contain'>
+                  </img>
+                </div>
+              </div>
+          ))}
           
         </div>
       </div>

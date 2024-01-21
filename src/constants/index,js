@@ -1,7 +1,8 @@
 
-import {  flow, sfsu, csus, mlops, recipe, dl, fd, wine, sign, llm, ig, pyimg, javaapp } from "../assets/images";
+import {  flow, sfsu, csus, mlops, recipe, dl, fd, wine, sign, llm, ig, pyimg, javaapp } from '../assets/images';
 import {
     css,
+    contact,
     express,
     git,
     github,
@@ -28,6 +29,7 @@ import {
     SQLAlchemy,
     aws,
     sql,
+    flask,
     docker
     
 } from "../assets/icons";
