@@ -1,10 +1,4 @@
-import React from 'react'
 
-export const Fox = () => {
-  return (
-    <div>Fox</div>
-  )
-}
 /**
  * IMPORTANT: Loading glTF models into a Three.js scene is a lot of work.
  * Before we can configure or animate our model’s meshes, we need to iterate through
@@ -16,8 +10,9 @@ export const Fox = () => {
  * YOU DON'T HAVE TO WRITE EVERYTHING FROM SCRATCH
  */
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
+import { useEffect } from "react";
 
 import scene from "../assets/3d/fox.glb";
 
