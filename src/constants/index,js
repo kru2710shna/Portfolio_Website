@@ -231,7 +231,7 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: '/Contact',
     },
     {
         name: 'GitHub',
@@ -315,6 +315,5 @@ export const projects = [
         name: 'Java Projcts- Book App, Contact App, Grocery Shopping App, Guessing Game, Movie App, Train App, Train Passengers Management System ',
         description: 'Create various Java-based applications, from book and contact management to grocery shopping and guessing games, showcasing diverse programming skills. Develop interactive systems for bookstores, contacts, groceries, games, movies, and train passenger management.',
         link: 'https://github.com/kru2710shna/JAVA_Projects',
-    },
-
+    }
 ];
