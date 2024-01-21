@@ -1,8 +1,10 @@
 import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser'
+
 
 const Contact = () => {
   const formRef = useRef(null);
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [form, setForm] = useState({ name: "", email: "", message: "" });  
   const [isLoading , setIsLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -10,7 +12,34 @@ const Contact = () => {
   };
 
   const handleFocus = (e) => {
-    e.preventdEFAULT()
+    e.preventDefault();
+    setIsLoading(True);
+
+    emailjs.send(
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID ,
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: form.name,
+        to_name: "Krushna",
+        from_email: form.email,
+        to_email: 'krushnaat.jobs@gmail.com',
+        message: form.message
+      },
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+
+    )
+    .then(() => {
+      setIsLoading(false);
+      // TODO: Show success message
+      // TODO: Hide an Alert 
+
+      setForm({name: '' , email: '' , message:''});
+    }).catch((error) => {
+      setIsLoading(false);
+      console.log(error);
+      // TODO: Show error message
+
+    })
   };
   const handleBlur = () => {};
   const handleSubmit = () => {};  
@@ -71,7 +100,7 @@ const Contact = () => {
           className='btn'
           disabled = {isLoading}
           onFocus = {handleFocus}
-          onBlue = {handleBlur}
+          onBlur = {handleBlur}
           >
           {isLoading ? 'Sending...' : 'Send Message'}
           </button>
