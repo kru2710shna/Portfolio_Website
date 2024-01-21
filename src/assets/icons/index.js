@@ -11,27 +11,28 @@ import react from './react.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
 import contact from './contact.svg'
 import aws from './aws.svg'
-import django from './django.svg'
+import Django from './django.svg'
 import docker from './docker.svg'
 import flask from './flask.svg'
 import java from './java.svg'
 import mpl from './mpl.svg'
 import NumPy from './NumPy.svg'
-import pandas from './pandas.svg'
+import Pandas from './pandas.svg'
 import python from './python.svg'
-import pytorch from './python,svg'
+import PyTorch from './PyTorch.svg'
 import r from './r.svg'
 import sl from './sl.svg'
 import sql from './sql.svg'
-import sqla from './sqla.svg'
 import tf from './tf.svg'
 import uml from './uml.svg'
+import SQLAlchemy from './sqla.svg'
+import arrow from './arrow.svg'
 
 export {
     css,
+    arrow,
     contact,
     express,
     git,
