@@ -182,5 +182,6 @@ body:has(.card[data-color="green"]:hover) {
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
 .gold-gradient_text {
-  color: gold;
+  box-shadow: #0061ff;
+  color: whitesmoke;
 }
