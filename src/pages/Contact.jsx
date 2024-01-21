@@ -13,10 +13,10 @@ const Contact = () => {
 
   const handleFocus = (e) => {
     e.preventDefault();
-    setIsLoading(True);
+    setIsLoading(true);
 
     emailjs.send(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID ,
+      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
       import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
@@ -72,7 +72,7 @@ const Contact = () => {
               type="email"
               name="email"
               className="input"
-              placeholder="Fox@__ . _"
+              placeholder="Fox@example.com"
               required
               value={form.email}
               onChange={handleChange}
