@@ -1,5 +1,5 @@
 
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {  flow, sfsu, csus, mlops, } from "../assets/images";
 import {
     css,
     express,
@@ -179,53 +179,50 @@ export const experiences = [
     {
         title: "AI Engineer Intern ",
         company_name: "FLOW Global Software Technologies, LLC,",
-        icon: starbucks,
+        icon: flow,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "December 2023 - Current",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and implementing AI algorithms and models.",
+            "Work collaboratively with other teams to achieve common goals",
+            "Clean and preprocess large datasets to ensure high-quality, error-free data.",
+            "Full proficiency with Python, Django, Tensorflow, Pandas, Git & Github, for AI applications",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Teaching Assiatnt- Python Programming",
+        company_name: "San Francisco State University",
+        icon: sfsu,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "August 2022 - December 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Support Python class by aiding students, grading assignments, and conducting workshops to enhance learning experiences.",
+            "Collaborate with the instructor, contribute to class dynamics, and provide constructive feedback for continuous improvement.",
+            "Foster a positive learning environment, assist in troubleshooting labs, and contribute to overall class success.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Student Assistant- Telecommunication and Data Management",
+        company_name: "California State University Sacramento",
+        icon: csus,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "August 2022 - December 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Provide support in telecommunication tasks and data management for enhanced efficiency and seamless operations.",
+            "Collaborate with the team, troubleshoot issues, and assist in the implementation of telecommunication systems.",
+            "Contribute to data management processes, maintain accuracy, and ensure the security of telecommunications infrastructure.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Front Desk Assiatnt",
+        company_name: "California State University Sacramento",
+        icon: csus,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "August 2021 - August 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Offer welcoming and friendly front desk assistance to students and visitors for a positive experience.",
+            "Answer inquiries, provide information, and assist in various administrative tasks at the front desk.",
+            "ImEnsure a well-organized and efficient front desk area, handling appointments, calls, and maintaining records.",
         ],
     },
 ];
@@ -239,12 +236,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/kru2710shna',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/krushnathakkar/',
     }
 ];
 
@@ -262,13 +259,6 @@ export const projects = [
         name: 'Full Stack Threads Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
         iconUrl: snapgram,
