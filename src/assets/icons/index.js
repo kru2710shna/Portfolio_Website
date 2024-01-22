@@ -34,6 +34,8 @@ import soundon from './soundon.png'
 
 export {
     css,
+    soundon,
+    soundoff,
     arrow,
     contact,
     express,
