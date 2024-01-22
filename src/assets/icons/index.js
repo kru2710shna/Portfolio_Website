@@ -29,6 +29,8 @@ import tf from './tf.svg'
 import uml from './uml.svg'
 import SQLAlchemy from './sqla.svg'
 import arrow from './arrow.svg'
+import soundoff from './soundoff.png'
+import soundon from './soundon.png'
 
 export {
     css,
