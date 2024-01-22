@@ -48,33 +48,55 @@ const About = () => {
         </div>
       </div>
 
-      <div>
-        <h3 className='py-16'> Work Experience</h3>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>Embarking on the intersection of AI/ML and 
-            backend development, my journey unfolds through 
-            intricate flows of coding wizardry, crafting 
-            solutions that elevate technology, and bring 
-            simplicity to the complex world of artificial 
-            intelligence on the backend.</p>
-
-            <div className='mt-12 flex'>
-            <VerticalTimeline>
-              {experiences.map((experiences) => (
-                <VerticalTimelineElement>
-                  <div>
-                    <h3>
-                      {experiences.title}
-                    </h3>
+      <div className='mt-12 flex'>
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <VerticalTimelineElement
+                key={experience.company_name}
+                date={experience.date}
+                iconStyle={{ background: experience.iconBg }}
+                icon={
+                  <div className='flex justify-center items-center w-full h-full'>
+                    <img
+                      src={experience.icon}
+                      alt={experience.company_name}
+                      className='w-[60%] h-[60%] object-contain'
+                    />
                   </div>
-                </VerticalTimelineElement>
-                ))}
+                }
+                contentStyle={{
+                  borderBottom: "8px",
+                  borderStyle: "solid",
+                  borderBottomColor: experience.iconBg,
+                  boxShadow: "none",
+                }}
+              >
+                <div>
+                  <h3 className='text-black text-xl font-poppins font-semibold'>
+                    {experience.title}
+                  </h3>
+                  <p
+                    className='text-black-500 font-medium text-base'
+                    style={{ margin: 0 }}
+                  >
+                    {experience.company_name}
+                  </p>
+                </div>
 
-            </VerticalTimeline>
-                    
-            </div>
+                <ul className='my-5 list-disc ml-5 space-y-2'>
+                  {experience.points.map((point, index) => (
+                    <li
+                      key={`experience-point-${index}`}
+                      className='text-black-500/50 font-normal pl-1 text-sm'
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </VerticalTimelineElement>
+            ))}
+          </VerticalTimeline>
         </div>
-      </div>
    </section>
   )
 }
