@@ -21,7 +21,7 @@ const Home = () => {
   const[isPlayingMusic, setIsPlayingMusic] = useState(false);
 
   useEffect (() => {
-    if(isPlaying){
+    if(isPlayingMusic){
       audioRef.current.play();
     }
     return ()=> {
