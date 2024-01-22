@@ -51,84 +51,162 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: java,
+        imageUrl: '//www.vectorlogo.zone/logos/java/java-horizontal.svg',
         name: "JAVA",
         type: "Programming_Language",
+        style:{
+            width: 20,
+            height: 0,
+        }
     },
     {
-        imageUrl: python,
+        imageUrl: '//www.python.org/static/community_logos/python-logo-inkscape.svg',
         name: "Python",
         type: "Programming_Language",
+        style:{
+            width: 20,
+            height: 10
+        }
     },
     {
-        imageUrl: r,
+        imageUrl: '//www.r-project.org/logo/Rlogo.svg',
         name: "R",
         type: "Programming_Language",
+        style:
+        {
+            width: 10,
+            height: 0
+        }
     },
     {
-        imageUrl: uml,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/d/d5/UML_logo.svg',
         name: "Unified Modeling Language",
         type: "Programming_Language",
+        style:
+        {
+            width: 10,
+            height: 0
+        }
     },
     {
-        imageUrl: NumPy,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg',
         name: "NumPy",
         type: "ML",
+        style:
+        {
+            width: 0,
+            height: 0
+        }
     },
     {
-        imageUrl: Pandas,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg',
         name: "Pandas",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: 10
+        }
     },
     {
-        imageUrl: flask,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg',
         name: "Flask",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: 10
+        }
     },
     {
-        imageUrl: Django,
+        imageUrl: '//static.djangoproject.com/img/logos/django-logo-positive.svg',
         name: "Django",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: 10
+        }
     },
     {
-        imageUrl: sl,
-        name: "Django",
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg',
+        name: "Sckit-Learn",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: 10
+        }
     },
     {
-        imageUrl: mpl,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg',
         name: "MatPlotLib",
         type: "ML",
+        style:
+        {
+            width: 30,
+            height: 10
+        }
     },
     {
-        imageUrl: PyTorch,
+        imageUrl: '//www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg',
         name: "PyTorch",
         type: "ML",
+        style:
+        {
+            width: 40,
+            height: 10
+        }
     },
     {
-        imageUrl: tf,
+        imageUrl: '//www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg',
         name: "TensforFlow",
         type: "ML",
+        style:
+        {
+            width: 60,
+            height: 10
+        }
     },
     {
-        imageUrl: SQLAlchemy,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/d/d7/SQLAlchemy.svg',
         name: "SQLAlchemy",
         type: "ML",
+        style:
+        {
+            width: 40,
+            height: 10
+        }
     },
     {
-        imageUrl: aws,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
         name: "AWS",
         type: "ML",
+        style:
+        {
+            width: 30,
+            height: 10
+        }
     },
     {
-        imageUrl: sql,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/d/d7/Sql_data_base_with_logo.svg',
         name: "SQL",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: -20,
+        }
     },
     {
-        imageUrl: docker,
+        imageUrl: '//upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg',
         name: "DOCKER",
         type: "ML",
+        style:
+        {
+            width: 20,
+            height: 10,
+        }
     },
     {
         imageUrl: git,
