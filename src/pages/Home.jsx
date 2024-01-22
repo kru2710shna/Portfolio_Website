@@ -9,9 +9,10 @@ import Homeinfo from '../components/Homeinfo';
 import sakura from '../assets/sakura.mp3';
 import { useEffect } from 'react';
 import { useRef } from 'react';
+import {soundoff} from '../assets/icons'
 
-const Home = () => {
-  const audioRef = UserRef(new Audio(sakura));
+const Home = () => { 
+  const audioRef = useRef(new Audio(sakura));
   audioRef.current.volume = 0.4;
   audioRef.current.loop =true;
   const [isRotating, setIsRotating] = useState(false);
@@ -97,10 +98,17 @@ const Home = () => {
 
           </Suspense>
       </Canvas>
-      <div className=''
+      <div className='absolute bottom-2 left-2' >
+        <img 
+        src ={!isPlayingMusic ? soundoff : soundon}
+        alt="sound"
+        className='w-10 h-10 cursor-pointer object-contain'
+        onClick={() => setIsPlayingMusic(!isPlayingMusic)} />
+
+      </div>
 
     </section>
   )
   
 }
-export default Home
+export default Home;
