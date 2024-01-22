@@ -12,7 +12,7 @@ const Navbar = () => {
           WHO AM I?
         </NavLink>
         <NavLink to="/projects" className={({isActive}) => isActive ? 'text-blue-500':'text-black'}>
-        Productions
+        Projects
         </NavLink>
 
       </nav>
