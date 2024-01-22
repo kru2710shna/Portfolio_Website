@@ -337,7 +337,7 @@ export const projects = [
         iconUrl: recipe,
         theme: 'btn-back-green',
         name: 'End-to-End Recipe App',
-        description: 'Created an Recipe App with the help of Django in Python. It enables users to add,search,update and delete the recipe. The app was functioned end to end for personal use.',
+        description: 'I utilized Django in Python to build a Recipe App that facilitates users in seamlessly managing recipes. The app allows users to add, search, update, and delete recipes, offering a comprehensive end-to-end solution tailored for personal use.',
         link: 'https://github.com/kru2710shna/Django_Projects/tree/main/Project_3',
     },
     {
