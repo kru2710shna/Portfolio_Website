@@ -270,7 +270,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Teaching Assiatnt- Python Programming",
+        title: "Teaching Assistant- Python Programming Lang.",
         company_name: "San Francisco State University",
         icon: sfsu,
         iconBg: "#fbc3bc",
@@ -294,7 +294,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Front Desk Assiatnt",
+        title: "Front Desk Assistant",
         company_name: "California State University Sacramento",
         icon: csus,
         iconBg: "#a2d2ff",

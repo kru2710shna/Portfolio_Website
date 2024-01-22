@@ -1,5 +1,8 @@
 import React from 'react';
-import { skills } from '../constants/index.js';
+import { skills, experiences} from '../constants/index.js';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 
 const About = () => {
   return (
@@ -56,6 +59,18 @@ const About = () => {
             intelligence on the backend.</p>
 
             <div className='mt-12 flex'>
+            <VerticalTimeline>
+              {experiences.map((experiences) => (
+                <VerticalTimelineElement>
+                  <div>
+                    <h3>
+                      {experiences.title}
+                    </h3>
+                  </div>
+                </VerticalTimelineElement>
+                ))}
+
+            </VerticalTimeline>
                     
             </div>
         </div>
