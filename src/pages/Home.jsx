@@ -10,6 +10,7 @@ import sakura from '../assets/sakura.mp3';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import { soundoff } from '../assets/icons'
+import { soundon } from '../assets/icons';
 
 
 const Home = () => { 
