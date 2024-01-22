@@ -6,10 +6,26 @@ import Bird from '../models/Bird';
 import Plane from '../models/Plane';
 import Sky from '../models/Sky';
 import Homeinfo from '../components/Homeinfo';
+import sakura from '../assets/sakura.mp3';
+import { useEffect } from 'react';
+import { useRef } from 'react';
 
 const Home = () => {
+  const audioRef = UserRef(new Audio(sakura));
+  audioRef.current.volume = 0.4;
+  audioRef.current.loop =true;
   const [isRotating, setIsRotating] = useState(false);
   const [currentStage, setCurrentStage] = useState(1)
+  const[isPlayingMusic, setIsPlayingMusic] = useState(false);
+
+  useEffect (() => {
+    if(isPlaying){
+      audioRef.current.play();
+    }
+    return ()=> {
+      audioRef.current.pause();
+    }
+  } , [setIsPlayingMusic])
 
   const adjustIslandScreenSize = () => {
 
@@ -81,6 +97,7 @@ const Home = () => {
 
           </Suspense>
       </Canvas>
+      <div className=''
 
     </section>
   )
