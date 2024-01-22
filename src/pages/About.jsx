@@ -2,7 +2,7 @@ import React from 'react';
 import { skills, experiences} from '../constants/index.js';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import {CTA} from '../components/CTA.jsx';
 
 const About = () => {
   return (
@@ -97,6 +97,9 @@ const About = () => {
             ))}
           </VerticalTimeline>
         </div>
+        <hr className='border-slate-200' />
+        
+
    </section>
   )
 }
