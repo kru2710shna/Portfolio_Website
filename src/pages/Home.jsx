@@ -4,7 +4,7 @@ import Loader from '../components/Loader';
 import Island from '../models/island';
 import Bird from '../models/Bird';
 import Plane from '../models/Plane';
-import Sky from '../models/Sky.jsx';
+import Sky from '../models/Sky';
 import Homeinfo from '../components/Homeinfo';
 import sakura from '../assets/sakura.mp3';
 import { useEffect } from 'react';
