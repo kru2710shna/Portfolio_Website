@@ -10,11 +10,11 @@ const About = () => {
    className='max-container'>
     <h1 className='head=text'>
       Hello I'm <span className='blue-gradient_text front-semibold
-      drop-shadow'>Krushna </span>
+      drop-shadow'>Krushna Thakkar</span>
     </h1>
     <div
       className='mt-5 flex flex-col gap-3 text-slate-500'>
-      <p>Enthusiast Machine Learning and Artificial Enginner, flattered on how 
+      <p>Enthusiast Machine Learning and Artificial Engineer, flattered on how 
          Back-End developnment make so sense behind the scene.
       </p>
       </div>
