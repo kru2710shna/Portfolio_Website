@@ -3,14 +3,15 @@ import { Canvas } from '@react-three/fiber';
 import Loader from '../components/Loader';
 import Island from '../models/island';
 import Bird from '../models/Bird';
+import Sky from '../models/sky';
 import Plane from '../models/Plane';
-import Sky from '../models/Sky';
 import Homeinfo from '../components/Homeinfo';
 import sakura from '../assets/sakura.mp3';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import { soundoff } from '../assets/icons'
 import { soundon } from '../assets/icons';
+
 
 const Home = () => { 
   const audioRef = useRef(new Audio(sakura));
