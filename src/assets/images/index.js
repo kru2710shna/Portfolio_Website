@@ -11,6 +11,9 @@ import pyimg from './pyimg.jpg'
 import recipe from './recipe.jpg'
 import sign from './sign.png'
 import wine from './wine.jpg'
+import goodworkhub from './goodworkhub.jpeg'
+
+
 export {
     flow, 
     sfsu, 
@@ -23,5 +26,6 @@ export {
     llm, 
     ig, 
     pyimg, 
-    javaapp
+    javaapp,
+    goodworkhub
 }

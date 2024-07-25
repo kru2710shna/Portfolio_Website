@@ -31,6 +31,9 @@ import SQLAlchemy from './sqla.svg'
 import arrow from './arrow.svg'
 import soundoff from './soundoff.png'
 import soundon from './soundon.png'
+import google from './google.svg'
+import kaggle from './kaggle.svg'
+import medium from './medium.svg'
 
 export {
     css,
@@ -65,5 +68,8 @@ export {
     aws,
     sql,
     flask,
-    docker
+    docker,
+    medium,
+    google,
+    kaggle
 }

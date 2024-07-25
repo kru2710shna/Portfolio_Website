@@ -1,5 +1,5 @@
 
-import {  flow, sfsu, csus, mlops, recipe, dl, fd, wine, sign, llm, ig, pyimg, javaapp } from '../assets/images';
+import {    flow, sfsu, goodworkhub, csus, mlops, recipe, dl, fd, wine, sign, llm, ig, pyimg, javaapp } from '../assets/images';
 import {
     css,
     contact,
@@ -20,6 +20,7 @@ import {
     r,
     uml,
     NumPy,
+    medium,
     Pandas,
     Django,
     sl, 
@@ -30,8 +31,9 @@ import {
     aws,
     sql,
     flask,
-    docker
-    
+    docker,
+    kaggle,
+    google, 
 } from "../assets/icons";
 
 export const skills = [
@@ -256,12 +258,27 @@ export const skills = [
 ];
 
 export const experiences = [
+
+    {
+        title: "Machine Learning Engineer Intern ",
+        company_name: "Good Work Hub",
+        icon: goodworkhub,
+        iconBg: "#accbe1",
+        date: "June 2024 - Current",
+        points: [
+            "Developing a product that connects charities with tools, grants, and people to maximize their impact." ,
+            "Utilized AI agents for web scraping and autonomous grant-matching with micro-charities. ",
+            "Deployed LLM models (e.g., Llama3 8B parameters) for creating ChatBot agents, automating tasks, and hyper-tuning bots for data gathering.", 
+            "Leveraged open-source tools for efficient data indexing and formatting",
+        ],
+    },
+
     {
         title: "AI Engineer Intern ",
         company_name: "FLOW Global Software Technologies, LLC,",
         icon: flow,
         iconBg: "#accbe1",
-        date: "December 2023 - Current",
+        date: "December 2023 - June 2024",
         points: [
             "Developing and implementing AI algorithms and models.",
             "Work collaboratively with other teams to achieve common goals",
@@ -270,7 +287,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Teaching Assistant- Python Programming Lang.",
+        title: "Teaching Assistant- Python Programming Language",
         company_name: "San Francisco State University",
         icon: sfsu,
         iconBg: "#fbc3bc",
@@ -322,6 +339,21 @@ export const socialLinks = [
         name: 'LinkedIn',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/krushnathakkar/',
+    },
+    {
+        name: 'Kaggle',
+        iconUrl: kaggle,
+        link: 'https://www.kaggle.com/krushna27',
+    },
+    {
+        name: 'Google Developer Profile',
+        iconUrl: google,
+        link: 'https://g.dev/krushnathakkar',
+    },
+    {
+        name: 'Medium',
+        iconUrl: medium,
+        link: 'https://medium.com/@krushnakr9',
     }
 ];
 
@@ -336,7 +368,7 @@ export const projects = [
     {
         iconUrl: recipe,
         theme: 'btn-back-green',
-        name: 'End-to-End Recipe App',
+        name: 'End-to-End Django Recipe App',
         description: 'I utilized Django in Python to build a Recipe App that facilitates users in seamlessly managing recipes. The app allows users to add, search, update, and delete recipes, offering a comprehensive end-to-end solution tailored for personal use.',
         link: 'https://github.com/kru2710shna/Django_Projects/tree/main/Project_3',
     },
